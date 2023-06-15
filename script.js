@@ -1,5 +1,5 @@
 //your JS code here. If required.
-let div = document.getElementById("body")
-let body = document.createElement("p")
-body.innerText = "DOM load success"
-div.append(body)
+document.addEventListener('DOMContentLoaded',function(){
+	var msg = document.getElementById("body")
+	msg.textContent = 'DOM load success'
+})
